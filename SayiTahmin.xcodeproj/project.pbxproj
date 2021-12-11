@@ -15,6 +15,8 @@
 		5BA2B8932762596500D3AD91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA2B8912762596500D3AD91 /* LaunchScreen.storyboard */; };
 		5BA2B89E2762596500D3AD91 /* SayiTahminTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA2B89D2762596500D3AD91 /* SayiTahminTests.swift */; };
 		5BA2B8A92762596500D3AD91 /* SayiTahminUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA2B8A82762596500D3AD91 /* SayiTahminUITests.swift */; };
+		5BA2B8B727625B4600D3AD91 /* TahminEkrani.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA2B8B627625B4600D3AD91 /* TahminEkrani.swift */; };
+		5BA2B8B927625B6D00D3AD91 /* SonucEkrani.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA2B8B827625B6D00D3AD91 /* SonucEkrani.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		5BA2B8A42762596500D3AD91 /* SayiTahminUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SayiTahminUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA2B8A82762596500D3AD91 /* SayiTahminUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SayiTahminUITests.swift; sourceTree = "<group>"; };
 		5BA2B8AA2762596500D3AD91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BA2B8B627625B4600D3AD91 /* TahminEkrani.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TahminEkrani.swift; sourceTree = "<group>"; };
+		5BA2B8B827625B6D00D3AD91 /* SonucEkrani.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonucEkrani.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				5BA2B88F2762596500D3AD91 /* Assets.xcassets */,
 				5BA2B8912762596500D3AD91 /* LaunchScreen.storyboard */,
 				5BA2B8942762596500D3AD91 /* Info.plist */,
+				5BA2B8B627625B4600D3AD91 /* TahminEkrani.swift */,
+				5BA2B8B827625B6D00D3AD91 /* SonucEkrani.swift */,
 			);
 			path = SayiTahmin;
 			sourceTree = "<group>";
@@ -258,8 +264,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BA2B8B727625B4600D3AD91 /* TahminEkrani.swift in Sources */,
 				5BA2B88B2762596500D3AD91 /* ViewController.swift in Sources */,
 				5BA2B8872762596500D3AD91 /* AppDelegate.swift in Sources */,
+				5BA2B8B927625B6D00D3AD91 /* SonucEkrani.swift in Sources */,
 				5BA2B8892762596500D3AD91 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
